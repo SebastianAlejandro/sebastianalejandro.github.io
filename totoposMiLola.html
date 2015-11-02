@@ -1,17 +1,102 @@
 <!doctype html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="css/960_12_col.css" type="text/css" rel="stylesheet"></link>
+		<style type="text/css">
+					@font-face {
+						font-family: 'QuicksandBook';
+						src: url('fonts/Quicksand_Book-webfont.eot');
+						src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+							url('fonts/Quicksand_Book-webfont.woff') format('woff'),
+							url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+							url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+						font-weight: normal;
+						font-style: normal;}
+					body {
+						color: ##070ec8;
+						background: #f8f137 url("images/bg.jpg");
+						font-family: Georgia, "Times New Roman", Times, serif;
+						font-size: 90%;
+						margin: 0px;
+						text-align: center;}
+					a {
+						color: #b5c1ad;
+						text-decoration: none;}
+					a:hover {
+						color: #ffffff;}
+					.header {
+						background-image: url("images/bg-header.jpg");
+						padding: 0px 0px 0px 0px;
+						height: 100px;
+						position: fixed;
+						top: 0px;
+						width: 100%;
+						z-index: 50;}
+					.nav {
+						float: right;
+						font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+						padding: 45px 0px 0px 0px;
+						text-align: right;}
+					.wrapper {
+						width: 960px;
+						margin: 0px auto;
+						background-image: url("images/bg-triangle.png");
+						background-repeat: no-repeat;
+						background-position: 0px 0px;
+						text-align: left;}
+					.logo {
+						margin-bottom: 20px;}
+					h1, h2 {
+						font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+						font-weight: normal;
+						text-transform: uppercase;}
+					h1 {
+						font-size: 240%;
+						margin-top: 140px;}
+					.date {
+						font-family: Arial, Helvetica, sans-serif;
+						font-size: 75%;
+						color: #b5c1ad;}
+					.intro {
+						clear: left;
+						font-size: 90%;
+						line-height: 1.4em;}
+					.main-story {
+						background-image: url("images/triangles.png");
+						background-repeat: no-repeat;
+						background-position: 122px 142px;
+						height: 570px;}
+					.more-articles {
+						border-top: 1px solid #ffffff;
+						padding: 10px;}
+					.more-articles p {
+						border-bottom: 1px solid #807c72;
+						padding: 5px 0px 15px 0px;
+						font-size: 80%;}
+					.more-articles p:last-child {
+						border-bottom: none;}
+					.footer {
+						clear: both;
+						background: rgba(0, 0, 0, 0.2);
+						padding: 5px 10px;}
+					.footer p {
+						font-family: Helvetica, Arial, sans-serif;
+						font-size: 75%;
+						text-align: right;}
+					.footer a {
+						color: #807c72;}
+
+		</style>
 		<title>Totopos Mi Lola</title>
 	</head>
 	<body>
-		<div id="page">
+<!--		<div id="page">
 			<div id="logo">
 				<img src="#" alt="Alguna alternativa" />
 			</div>
 	    <h1 class="titulo">Totopos Mi Lola</h1>
 			<img class="imagen-de-totopos" src="#" alt="Totopos hechos frescos cada día">
-			<!-- Navigación -->
+			  * Navigación *
 			<div class="navigacion">
 		    <ul>
 		      <li><a href="#" class="on">Início</a></li>
@@ -22,5 +107,99 @@
 			</div>
 			<p>Especializamos en totopos artesanos, de tortillas hechas a mano cada día. Contáctenos para más información.</p>
 		</div>
-	</body>
+ -->
+ <div class="header">
+	<div class="container_12">
+		<div class="grid_5">
+			<img class="logo" width="1280" alt="Totopos Mi Lola- Totopos Artesanos" src="pics/totopos1.jpg">
+			<img width="116" height="100" alt="" src="images/header-triangle.png">
+		</div>
+		<div class="nav grid_7">
+			<a href="">Inicio</a> /
+			<a href="">Noticias</a> /
+			<a href="">Sobre Mi Lola</a> /
+			<a href="">Contactanos</a>
+		</div>
+	</div>
+</div>
+<div class="wrapper">
+	<div class="main-story container_12">
+		<div class="grid_6 push_6">
+			<h1>
+				<a href="">Varius etiam</a>
+			</h1>
+		</div>
+		<div class="intro grid_3 push_9">
+			<p class="date">16 APRIL 2011</p>
+			<p>Lorem ipsum dolor sit amet, orci vitae, phasellus est quis, quis amet sodales eleifend beatae pretium, ullamcorper justo sodales nihil dolor placerat. Elit sed placeat, aliquam convallis, faucibus donec consectetuer orci elit, vel auctor odio lectus. Pede suscipit magna porttitor quis, sollicitudin dui viverra, integer a ipsum nam mauris, enim magna varius rhoncus vel ante vel.</p>
+			<p>
+				 Nulla mauris dui, feugiat sed sodales commodo vel wisi morbi, proin urna, in sit dictum nisi vitae vitae ornare, duis eu risus mattis imperdiet. Per ac pharetra.
+				<a href="">Sigue Leyendo...</a>
+			</p>
+		</div>
+	</div>
+	<div class="more-articles container_12">
+		<h2 class="grid_12">
+			<a href="">Recetas</a>
+		</h2>
+		<div class="grid_3">
+			<img width="220" height="125" alt="La Primer Receta" src="images/more1.jpg">
+			<p>
+				<a href="">Nunc quis consequatur eu porta, egestas sodales, imperdiet nulla.</a>
+			</p>
+			<p>
+				<a href="">Fusce ante sed lacus mauris, elementum enim.</a>
+			</p>
+			<p>
+				<a href="">Eu venenatis, et consequat nec at felis scelerisque eget, sed consectetuer quis felis. Molestie tincidunt mauris pretium vulputate, vitae dolor.</a>
+			</p>
+		</div>
+		<div class="grid_3">
+			<img width="220" height="125" alt="La Segunda Receta" src="images/more2.jpg">
+			<p>
+				<a href="">Sodales amet, massa quam adipiscing, duis nunc augue.</a>
+			</p>
+			<p>
+				<a href="">Porttitor pellentesque sagittis, ipsum et praesent montes sollicitudin in, est arcu, ante ac dolor elementum tristique.</a>
+			</p>
+			<p>
+				<a href="">Ligula lorem at lobortis vivamus orci, et vitae amet in felis, dui ac congue.</a>
+			</p>
+		</div>
+		<div class="grid_3">
+			<img width="220" height="125" alt="La Tercera Receta" src="images/more3.jpg">
+			<p>
+				<a href="">Rutrum nisl ultrices, convallis lectus pellentesque urna integer facilisis, lacus phasellus mus urna ac libero velit, consectetuer suspendisse, augue donec.</a>
+			</p>
+			<p>
+				<a href=""> Non netus pellentesque bibendum mauris ligula nunc, temporibus euismod at morbi fusce, viverra sed proin ut, lacus a cras quam mattis, dictumst integer inceptos pharetra sociosqu.</a>
+			</p>
+			<p>
+				<a href="">Imperdiet amet. Ornare lectus aenean pulvinar suspendisse felis vel, sit libero sed dolor donec nec fermentum.</a>
+			</p>
+		</div>
+		<div class="grid_3">
+			<img width="220" height="125" alt="La Ultima Receta" src="images/more4.jpg">
+			<p>
+				<a href="">Eget wisi urna, eget qui quisque vestibulum.</a>
+			</p>
+			<p>
+				<a href="">Venenatis fringilla purus sit volutpat dignissim congue.</a>
+			</p>
+			<p>
+				<a href="">Amet in, purus risus molestie non magna ridiculus, arcu impedit, nec dicta scelerisque nibh.</a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="footer clearfix">
+	<div class="container_12">
+		<p class="grid_12">
+			<a href=""><Informacion Legal</a> |
+			<a href="">Politica</a> |
+			<a href="">Registrado © Totopos Mi Lola 2015</a>
+		</p>
+	</div>
+</div>
+</body>
 </html>
